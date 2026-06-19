@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.flowplay" 
+       name="Flow Play" 
+       version="1.0.1" 
+       provider-name="Jarko a Koviko">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="plugin.video.youtube" version="6.8.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="main.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="sk">Streamovací portál Flow Play</summary>
+        <description lang="sk">Doplnok pre sledovanie relácií, logistiky a rozprávok Bambuľka.</description>
+        <platform>all</platform>
+        <language>sk</language>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
