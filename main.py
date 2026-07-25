@@ -1,4 +1,3 @@
-```python
 # -*- coding: utf-8 -*-
 import sys
 import urllib.parse
@@ -129,4 +128,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-```
